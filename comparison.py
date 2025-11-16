@@ -19,13 +19,13 @@ if ortalama >= 50 and final >= 50:
 else:
     print("Maalesef, dersi gecemediniz.")
 
-sayi = float(input("Bir sayi girin: "))
+sayi = int(input("Bir sayi girin: "))
 if sayi > 0:
     print("Pozitif sayi")
 elif sayi < 0:
     print("Negatif sayi")
 
-_sayi = float(input("Bir sayi girin: "))
+_sayi = int(input("Bir sayi girin: "))
 if _sayi %2 == 0:
     print("Cift sayi")
 else:
